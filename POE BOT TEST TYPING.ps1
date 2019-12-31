@@ -23,15 +23,18 @@ $regexBOT = ".*([Cc]heap|[Fa]ast|[Ss]afe).*"
 
 #TODO - add additional spam detection (currency store post, etc)
 
-
+$shellindex = 0
 #when spam bot text is detected, call AHK script
 while($true){
 
     Get-Content -Tail 1 -Wait -Path $POE_ChatLog | ForEach-Object{
         if($_ -match $regexBOT){
-            write-host "Detected" 
-            Get-Date
-            
+            $shellindex++
+            $timestamp ="{0:hh}:{0:mm}" -f (Get-Date) 
+            write-host "Detected at $timestamp" 
+            if($shellindex -gt 9){
+                Clear-Host
+            }
             #SET AS TEST SCRIPT, *CHANGE BEFORE RELEASE*
             . "$PSScriptRoot\BLOCKTEST.ahk"
         }
