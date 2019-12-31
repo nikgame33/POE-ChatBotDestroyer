@@ -40,6 +40,8 @@ please file bugs, issues, & suggestions in this github project so we can track t
 
 twitter.com/CorndogMD
 
+twitch.tv/nikgame33
+
 Send Donations to Doctors Without Borders
 
 
