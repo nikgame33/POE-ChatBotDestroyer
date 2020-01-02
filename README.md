@@ -14,6 +14,8 @@ DO NOT USE MASTER OR TEST BRANCH THEY ARE ALL JACKED UP BECAUSE I SCREW UP ALL T
 
 USE STABLE RELEASES ONLY
 
+Release is tested to not conflict with POE Trade Macro & POE Trade Companion
+
 # Requirements
 Autohotkey must be installed
 
