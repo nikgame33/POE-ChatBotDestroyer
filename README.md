@@ -50,6 +50,8 @@ please file bugs, issues, & suggestions in this github project so we can track t
 
 CorndogMD - Twitter & Discord (Now with verified POE Tool Developer Role yeehaw)
 
+Nikgame33 - Twitch.tv/nikgame33
+
 Send Donations to Doctors Without Borders
 
 
